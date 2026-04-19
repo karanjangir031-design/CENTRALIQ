@@ -164,5 +164,4 @@ def verify_data():
 
 # ── RUN ALL ───────────────────────────
 test_connection()
-load_cpi_data(r'C:\Users\jangi\Desktop\CENTRALIQ\data\raw\cpi.xlsx')
 verify_data()
