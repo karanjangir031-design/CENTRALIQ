@@ -13,7 +13,10 @@ from datetime import datetime
 import random
 
 # ── CONFIG ────────────────────────────
-GROQ_API_KEY = "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"  
+import os
+from dotenv import load_dotenv
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # ── DATABASE ──────────────────────────
